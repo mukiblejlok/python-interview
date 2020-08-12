@@ -10,9 +10,12 @@ with key taken from environmental variable "ELEVATION_API_KEY"
 
 Result should be a bool assigned to variable 'answer3'
 """
-from questions import cities_data_path
+from questions.helpers.paths import cities_data_path
 
 # Your solution here
 
 # Your answer here
 answer3 = None
+
+if __name__ == '__main__':
+    print(answer3)
