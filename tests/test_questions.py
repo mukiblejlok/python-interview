@@ -1,3 +1,6 @@
+import pytest
+
+
 class TestQuestions:
 
     def test_question_1(self):
@@ -13,8 +16,6 @@ class TestQuestions:
         from questions.question3 import answer
         assert answer is False
 
+    @pytest.mark.skip
     def test_question_4(self):
-        # from questions.question4 import function
-        # test_cases = (("Kraków", True), ("")
-        # assert answer is False
         pass
