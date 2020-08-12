@@ -1,0 +1,2018 @@
+[
+  {
+    "city": "Katowice",
+    "population": "308724",
+    "lat": "50.258415",
+    "lng": "19.027545"
+  },
+  {
+    "city": "Warsaw",
+    "population": "1702139",
+    "lat": "52.25",
+    "lng": "21.0"
+  },
+  {
+    "city": "\u0141\u00f3d\u017a",
+    "population": "758000",
+    "lat": "51.75",
+    "lng": "19.466667"
+  },
+  {
+    "city": "Krak\u00f3w",
+    "population": "755050",
+    "lat": "50.057531",
+    "lng": "19.980216"
+  },
+  {
+    "city": "Gda\u0144sk",
+    "population": "455830",
+    "lat": "54.36085",
+    "lng": "18.658291"
+  },
+  {
+    "city": "Bytom",
+    "population": "189186",
+    "lat": "50.348017",
+    "lng": "18.932822"
+  },
+  {
+    "city": "Wroc\u0142aw",
+    "population": "610049",
+    "lat": "51.1",
+    "lng": "17.033333"
+  },
+  {
+    "city": "Pozna\u0144",
+    "population": "570352",
+    "lat": "52.416667",
+    "lng": "16.966667"
+  },
+  {
+    "city": "Gliwice",
+    "population": "198835",
+    "lat": "50.297612",
+    "lng": "18.676583"
+  },
+  {
+    "city": "Szczecin",
+    "population": "372672",
+    "lat": "53.439531",
+    "lng": "14.593891"
+  },
+  {
+    "city": "Bydgoszcz",
+    "population": "365992",
+    "lat": "53.127062",
+    "lng": "18.019987"
+  },
+  {
+    "city": "Lublin",
+    "population": "355958",
+    "lat": "51.25",
+    "lng": "22.566667"
+  },
+  {
+    "city": "Gdynia",
+    "population": "253730",
+    "lat": "54.5",
+    "lng": "18.55"
+  },
+  {
+    "city": "Bia\u0142ystok",
+    "population": "285590",
+    "lat": "53.133333",
+    "lng": "23.15"
+  },
+  {
+    "city": "Rzesz\u00f3w",
+    "population": "158382",
+    "lat": "50.037246",
+    "lng": "22.004949"
+  },
+  {
+    "city": "Kielce",
+    "population": "208598",
+    "lat": "50.873686",
+    "lng": "20.630266"
+  },
+  {
+    "city": "Olsztyn",
+    "population": "171803",
+    "lat": "53.779949",
+    "lng": "20.494162"
+  },
+  {
+    "city": "Opole",
+    "population": "127676",
+    "lat": "50.672115",
+    "lng": "17.925325"
+  },
+  {
+    "city": "Elbl\u0105g",
+    "population": "121106",
+    "lat": "54.1522",
+    "lng": "19.408841"
+  },
+  {
+    "city": "Zielona G\u00f3ra",
+    "population": "109298",
+    "lat": "51.939345",
+    "lng": "15.505772"
+  },
+  {
+    "city": "Koszalin",
+    "population": "107450",
+    "lat": "54.193589",
+    "lng": "16.184916"
+  },
+  {
+    "city": "Twierdza Grudziadz",
+    "population": "99486",
+    "lat": "53.5",
+    "lng": "18.75"
+  },
+  {
+    "city": "Inowroc\u0142aw",
+    "population": "77597",
+    "lat": "52.798858",
+    "lng": "18.263875"
+  },
+  {
+    "city": "E\u0142k",
+    "population": "46856",
+    "lat": "53.826478",
+    "lng": "22.365416"
+  },
+  {
+    "city": "Nak\u0142o nad Noteci\u0105",
+    "population": "",
+    "lat": "53.141874",
+    "lng": "17.602976"
+  },
+  {
+    "city": "Ustrzyki Dolne",
+    "population": "",
+    "lat": "49.430858",
+    "lng": "22.584761"
+  },
+  {
+    "city": "S\u0119p\u00f3lno Kraje\u0144skie",
+    "population": "",
+    "lat": "53.452046",
+    "lng": "17.539826"
+  },
+  {
+    "city": "Gorlice",
+    "population": "",
+    "lat": "49.658084",
+    "lng": "21.159693"
+  },
+  {
+    "city": "Nowy Targ",
+    "population": "",
+    "lat": "49.477579",
+    "lng": "20.029205"
+  },
+  {
+    "city": "Nowy Tomy\u015bl",
+    "population": "",
+    "lat": "52.316477",
+    "lng": "16.133629"
+  },
+  {
+    "city": "\u0141ask",
+    "population": "",
+    "lat": "51.588037",
+    "lng": "19.125084"
+  },
+  {
+    "city": "Boles\u0142awiec",
+    "population": "",
+    "lat": "51.264183",
+    "lng": "15.569703"
+  },
+  {
+    "city": "Olecko",
+    "population": "",
+    "lat": "54.036431",
+    "lng": "22.508387"
+  },
+  {
+    "city": "Bia\u0142a Podlaska",
+    "population": "",
+    "lat": "52.03129",
+    "lng": "23.121418"
+  },
+  {
+    "city": "Polkowice",
+    "population": "",
+    "lat": "51.50618",
+    "lng": "16.072623"
+  },
+  {
+    "city": "Nisko",
+    "population": "",
+    "lat": "50.518509",
+    "lng": "22.144659"
+  },
+  {
+    "city": "Brzoz\u00f3w",
+    "population": "",
+    "lat": "49.695431",
+    "lng": "22.020189"
+  },
+  {
+    "city": "Ruda \u015al\u0105ska",
+    "population": "",
+    "lat": "50.307941",
+    "lng": "18.855156"
+  },
+  {
+    "city": "Be\u0142chat\u00f3w",
+    "population": "",
+    "lat": "51.366503",
+    "lng": "19.374485"
+  },
+  {
+    "city": "Brodnica",
+    "population": "",
+    "lat": "53.25",
+    "lng": "19.4"
+  },
+  {
+    "city": "Tychy",
+    "population": "",
+    "lat": "50.137167",
+    "lng": "18.96641"
+  },
+  {
+    "city": "Oborniki",
+    "population": "",
+    "lat": "52.647394",
+    "lng": "16.814061"
+  },
+  {
+    "city": "Choszczno",
+    "population": "",
+    "lat": "53.169051",
+    "lng": "15.420537"
+  },
+  {
+    "city": "Lesko",
+    "population": "",
+    "lat": "49.47113",
+    "lng": "22.329802"
+  },
+  {
+    "city": "B\u0119dzin",
+    "population": "",
+    "lat": "50.319705",
+    "lng": "19.145249"
+  },
+  {
+    "city": "Hrubiesz\u00f3w",
+    "population": "",
+    "lat": "50.805019",
+    "lng": "23.892508"
+  },
+  {
+    "city": "Sztum",
+    "population": "",
+    "lat": "53.920268",
+    "lng": "19.031101"
+  },
+  {
+    "city": "\u015awi\u0119toch\u0142owice",
+    "population": "",
+    "lat": "50.292455",
+    "lng": "18.914684"
+  },
+  {
+    "city": "Strzelin",
+    "population": "",
+    "lat": "50.783958",
+    "lng": "17.066399"
+  },
+  {
+    "city": "Zwole\u0144",
+    "population": "",
+    "lat": "51.355901",
+    "lng": "21.582678"
+  },
+  {
+    "city": "G\u0142og\u00f3w",
+    "population": "",
+    "lat": "51.663026",
+    "lng": "16.075688"
+  },
+  {
+    "city": "Grodzisk Mazowiecki",
+    "population": "",
+    "lat": "52.106384",
+    "lng": "20.623141"
+  },
+  {
+    "city": "Pruszk\u00f3w",
+    "population": "",
+    "lat": "52.162608",
+    "lng": "20.812948"
+  },
+  {
+    "city": "Radomsko",
+    "population": "",
+    "lat": "51.066749",
+    "lng": "19.454424"
+  },
+  {
+    "city": "Police",
+    "population": "",
+    "lat": "53.542062",
+    "lng": "14.555212"
+  },
+  {
+    "city": "Rypin",
+    "population": "",
+    "lat": "53.067489",
+    "lng": "19.415666"
+  },
+  {
+    "city": "O\u017car\u00f3w Mazowiecki",
+    "population": "",
+    "lat": "52.233333",
+    "lng": "20.85"
+  },
+  {
+    "city": "Wodzis\u0142aw \u015al\u0105ski",
+    "population": "",
+    "lat": "50.010983",
+    "lng": "18.455074"
+  },
+  {
+    "city": "Zabrze",
+    "population": "",
+    "lat": "50.306355",
+    "lng": "18.783333"
+  },
+  {
+    "city": "Paj\u0119czno",
+    "population": "",
+    "lat": "51.144491",
+    "lng": "18.996116"
+  },
+  {
+    "city": "Sok\u00f3\u0142ka",
+    "population": "",
+    "lat": "53.407154",
+    "lng": "23.502278"
+  },
+  {
+    "city": "Ostrzesz\u00f3w",
+    "population": "",
+    "lat": "51.425661",
+    "lng": "17.930084"
+  },
+  {
+    "city": "Pszczyna",
+    "population": "",
+    "lat": "49.976483",
+    "lng": "18.947323"
+  },
+  {
+    "city": "Jarocin",
+    "population": "",
+    "lat": "51.97076",
+    "lng": "17.498773"
+  },
+  {
+    "city": "Luba\u0144",
+    "population": "",
+    "lat": "51.120143",
+    "lng": "15.287678"
+  },
+  {
+    "city": "Lubacz\u00f3w",
+    "population": "",
+    "lat": "50.159707",
+    "lng": "23.122425"
+  },
+  {
+    "city": "Bielsko-Bia\u0142a",
+    "population": "",
+    "lat": "49.822449",
+    "lng": "19.046863"
+  },
+  {
+    "city": "Kamie\u0144 Pomorski",
+    "population": "",
+    "lat": "53.968946",
+    "lng": "14.772834"
+  },
+  {
+    "city": "Szyd\u0142owiec",
+    "population": "",
+    "lat": "51.224862",
+    "lng": "20.858566"
+  },
+  {
+    "city": "\u017baga\u0144",
+    "population": "",
+    "lat": "51.615804",
+    "lng": "15.314769"
+  },
+  {
+    "city": "Cieszyn",
+    "population": "",
+    "lat": "49.74634",
+    "lng": "18.636093"
+  },
+  {
+    "city": "Jaworzno",
+    "population": "",
+    "lat": "50.206025",
+    "lng": "19.270062"
+  },
+  {
+    "city": "Lidzbark Warmi\u0144ski",
+    "population": "",
+    "lat": "54.128687",
+    "lng": "20.57807"
+  },
+  {
+    "city": "W\u0119gr\u00f3w",
+    "population": "",
+    "lat": "52.401958",
+    "lng": "22.016667"
+  },
+  {
+    "city": "Czarnk\u00f3w",
+    "population": "",
+    "lat": "52.902144",
+    "lng": "16.564126"
+  },
+  {
+    "city": "Wierusz\u00f3w",
+    "population": "",
+    "lat": "51.298167",
+    "lng": "18.157387"
+  },
+  {
+    "city": "K\u0119trzyn",
+    "population": "",
+    "lat": "54.079293",
+    "lng": "21.370583"
+  },
+  {
+    "city": "Stargard Szczeci\u0144ski",
+    "population": "",
+    "lat": "53.341761",
+    "lng": "15.052135"
+  },
+  {
+    "city": "Wadowice",
+    "population": "",
+    "lat": "49.884086",
+    "lng": "19.491489"
+  },
+  {
+    "city": "Gniezno",
+    "population": "",
+    "lat": "52.53944",
+    "lng": "17.611262"
+  },
+  {
+    "city": "S\u0142upca",
+    "population": "",
+    "lat": "52.290352",
+    "lng": "17.873101"
+  },
+  {
+    "city": "Opat\u00f3w",
+    "population": "",
+    "lat": "50.800952",
+    "lng": "21.423434"
+  },
+  {
+    "city": "Wejherowo",
+    "population": "",
+    "lat": "54.605211",
+    "lng": "18.235514"
+  },
+  {
+    "city": "\u0141\u0119czna",
+    "population": "",
+    "lat": "51.304588",
+    "lng": "22.883235"
+  },
+  {
+    "city": "Bia\u0142obrzegi",
+    "population": "",
+    "lat": "51.646641",
+    "lng": "20.950269"
+  },
+  {
+    "city": "Olkusz",
+    "population": "",
+    "lat": "50.27916",
+    "lng": "19.563162"
+  },
+  {
+    "city": "Zamo\u015b\u0107",
+    "population": "",
+    "lat": "50.724679",
+    "lng": "23.260629"
+  },
+  {
+    "city": "Lipno",
+    "population": "",
+    "lat": "52.845174",
+    "lng": "19.182561"
+  },
+  {
+    "city": "\u0141a\u0144cut",
+    "population": "",
+    "lat": "50.06819",
+    "lng": "22.228955"
+  },
+  {
+    "city": "Parczew",
+    "population": "",
+    "lat": "51.642884",
+    "lng": "22.908449"
+  },
+  {
+    "city": "Limanowa",
+    "population": "",
+    "lat": "49.704128",
+    "lng": "20.42245"
+  },
+  {
+    "city": "Tarnowskie G\u00f3ry",
+    "population": "",
+    "lat": "50.448546",
+    "lng": "18.851463"
+  },
+  {
+    "city": "K\u0142obuck",
+    "population": "",
+    "lat": "50.90298",
+    "lng": "18.937036"
+  },
+  {
+    "city": "Pyrzyce",
+    "population": "",
+    "lat": "53.145647",
+    "lng": "14.892897"
+  },
+  {
+    "city": "Tuchola",
+    "population": "",
+    "lat": "53.586661",
+    "lng": "17.86059"
+  },
+  {
+    "city": "Starachowice",
+    "population": "",
+    "lat": "51.051914",
+    "lng": "21.088273"
+  },
+  {
+    "city": "Kartuzy",
+    "population": "",
+    "lat": "54.333333",
+    "lng": "18.2"
+  },
+  {
+    "city": "Lubart\u00f3w",
+    "population": "",
+    "lat": "51.462888",
+    "lng": "22.607754"
+  },
+  {
+    "city": "Sanok",
+    "population": "",
+    "lat": "49.558958",
+    "lng": "22.202951"
+  },
+  {
+    "city": "Wysokie Mazowieckie",
+    "population": "",
+    "lat": "52.917069",
+    "lng": "22.511442"
+  },
+  {
+    "city": "Nowy Dw\u00f3r Gda\u0144ski",
+    "population": "",
+    "lat": "54.21305",
+    "lng": "19.117714"
+  },
+  {
+    "city": "Nowy Dw\u00f3r Mazowiecki",
+    "population": "",
+    "lat": "52.430356",
+    "lng": "20.715855"
+  },
+  {
+    "city": "Pi\u0142a",
+    "population": "",
+    "lat": "53.154997",
+    "lng": "16.746074"
+  },
+  {
+    "city": "Nowe Miasto Lubawskie",
+    "population": "",
+    "lat": "53.422694",
+    "lng": "19.592512"
+  },
+  {
+    "city": "\u017byrard\u00f3w",
+    "population": "",
+    "lat": "52.055392",
+    "lng": "20.441451"
+  },
+  {
+    "city": "Sucha Beskidzka",
+    "population": "",
+    "lat": "49.737591",
+    "lng": "19.587148"
+  },
+  {
+    "city": "Gosty\u0144",
+    "population": "",
+    "lat": "51.882468",
+    "lng": "17.012255"
+  },
+  {
+    "city": "Che\u0142m",
+    "population": "",
+    "lat": "51.135831",
+    "lng": "23.482511"
+  },
+  {
+    "city": "Sochaczew",
+    "population": "",
+    "lat": "52.233333",
+    "lng": "20.25"
+  },
+  {
+    "city": "Le\u017cajsk",
+    "population": "",
+    "lat": "50.260132",
+    "lng": "22.421242"
+  },
+  {
+    "city": "Mogilno",
+    "population": "",
+    "lat": "52.660492",
+    "lng": "17.956662"
+  },
+  {
+    "city": "Sierpc",
+    "population": "",
+    "lat": "52.852857",
+    "lng": "19.668927"
+  },
+  {
+    "city": "Ryki",
+    "population": "",
+    "lat": "51.623966",
+    "lng": "21.933517"
+  },
+  {
+    "city": "Racib\u00f3rz",
+    "population": "",
+    "lat": "50.090569",
+    "lng": "18.207455"
+  },
+  {
+    "city": "Stasz\u00f3w",
+    "population": "",
+    "lat": "50.56342",
+    "lng": "21.168666"
+  },
+  {
+    "city": "Che\u0142mno",
+    "population": "",
+    "lat": "53.35",
+    "lng": "18.433333"
+  },
+  {
+    "city": "D\u0105browa G\u00f3rnicza",
+    "population": "",
+    "lat": "50.326206",
+    "lng": "19.224381"
+  },
+  {
+    "city": "Garwolin",
+    "population": "",
+    "lat": "51.897384",
+    "lng": "21.614392"
+  },
+  {
+    "city": "Krasnystaw",
+    "population": "",
+    "lat": "50.985028",
+    "lng": "23.172715"
+  },
+  {
+    "city": "Kozienice",
+    "population": "",
+    "lat": "51.583602",
+    "lng": "21.549937"
+  },
+  {
+    "city": "Mys\u0142owice",
+    "population": "",
+    "lat": "50.236209",
+    "lng": "19.141123"
+  },
+  {
+    "city": "Zgorzelec",
+    "population": "",
+    "lat": "51.153659",
+    "lng": "15.008839"
+  },
+  {
+    "city": "S\u0142upsk",
+    "population": "",
+    "lat": "54.467761",
+    "lng": "17.027457"
+  },
+  {
+    "city": "Turek",
+    "population": "",
+    "lat": "52.017722",
+    "lng": "18.50559"
+  },
+  {
+    "city": "\u017bnin",
+    "population": "",
+    "lat": "52.853617",
+    "lng": "17.716677"
+  },
+  {
+    "city": "Skierniewice",
+    "population": "",
+    "lat": "51.966667",
+    "lng": "20.15"
+  },
+  {
+    "city": "Sejny",
+    "population": "",
+    "lat": "54.107505",
+    "lng": "23.34792"
+  },
+  {
+    "city": "Pisz",
+    "population": "",
+    "lat": "53.627444",
+    "lng": "21.812528"
+  },
+  {
+    "city": "Wielu\u0144",
+    "population": "",
+    "lat": "51.221009",
+    "lng": "18.566548"
+  },
+  {
+    "city": "\u015awiecie",
+    "population": "",
+    "lat": "53.409527",
+    "lng": "18.44512"
+  },
+  {
+    "city": "Stalowa Wola",
+    "population": "",
+    "lat": "50.551635",
+    "lng": "22.051089"
+  },
+  {
+    "city": "Tczew",
+    "population": "",
+    "lat": "54.092291",
+    "lng": "18.79467"
+  },
+  {
+    "city": "Radzy\u0144 Podlaski",
+    "population": "",
+    "lat": "51.783333",
+    "lng": "22.616667"
+  },
+  {
+    "city": "\u015awidnik",
+    "population": "",
+    "lat": "51.22057",
+    "lng": "22.700337"
+  },
+  {
+    "city": "Bia\u0142ogard",
+    "population": "",
+    "lat": "54.00937",
+    "lng": "15.986562"
+  },
+  {
+    "city": "Ko\u0144skie",
+    "population": "",
+    "lat": "51.191432",
+    "lng": "20.408217"
+  },
+  {
+    "city": "Zgierz",
+    "population": "",
+    "lat": "51.84469",
+    "lng": "19.408752"
+  },
+  {
+    "city": "Krapkowice",
+    "population": "",
+    "lat": "50.474689",
+    "lng": "17.965447"
+  },
+  {
+    "city": "Legnica",
+    "population": "",
+    "lat": "51.210062",
+    "lng": "16.161898"
+  },
+  {
+    "city": "Legionowo",
+    "population": "",
+    "lat": "52.401488",
+    "lng": "20.926636"
+  },
+  {
+    "city": "Bartoszyce",
+    "population": "",
+    "lat": "54.250693",
+    "lng": "20.814911"
+  },
+  {
+    "city": "Chrzan\u00f3w",
+    "population": "",
+    "lat": "50.139468",
+    "lng": "19.40626"
+  },
+  {
+    "city": "S\u0142ubice",
+    "population": "",
+    "lat": "52.355255",
+    "lng": "14.564826"
+  },
+  {
+    "city": "Strzelce Kraje\u0144skie",
+    "population": "",
+    "lat": "52.876306",
+    "lng": "15.5326"
+  },
+  {
+    "city": "Nidzica",
+    "population": "",
+    "lat": "53.360936",
+    "lng": "20.426476"
+  },
+  {
+    "city": "G\u0142ubczyce",
+    "population": "",
+    "lat": "50.202034",
+    "lng": "17.829379"
+  },
+  {
+    "city": "W\u0142oszczowa",
+    "population": "",
+    "lat": "50.852583",
+    "lng": "19.966843"
+  },
+  {
+    "city": "Skar\u017cysko-Kamienna",
+    "population": "",
+    "lat": "51.117238",
+    "lng": "20.895717"
+  },
+  {
+    "city": "Kalisz",
+    "population": "",
+    "lat": "51.76109",
+    "lng": "18.091018"
+  },
+  {
+    "city": "Opole Lubelskie",
+    "population": "",
+    "lat": "51.148001",
+    "lng": "21.969903"
+  },
+  {
+    "city": "Mi\u0119dzych\u00f3d",
+    "population": "",
+    "lat": "52.599017",
+    "lng": "15.890664"
+  },
+  {
+    "city": "Olesno",
+    "population": "",
+    "lat": "50.876976",
+    "lng": "18.420937"
+  },
+  {
+    "city": "Dzia\u0142dowo",
+    "population": "",
+    "lat": "53.239581",
+    "lng": "20.170041"
+  },
+  {
+    "city": "Mielec",
+    "population": "",
+    "lat": "50.286188",
+    "lng": "21.432657"
+  },
+  {
+    "city": "Ostr\u00f3w Mazowiecka",
+    "population": "",
+    "lat": "52.803342",
+    "lng": "21.895544"
+  },
+  {
+    "city": "Pu\u0142tusk",
+    "population": "",
+    "lat": "52.704141",
+    "lng": "21.083007"
+  },
+  {
+    "city": "Kra\u015bnik",
+    "population": "",
+    "lat": "50.922758",
+    "lng": "22.22648"
+  },
+  {
+    "city": "Miech\u00f3w",
+    "population": "",
+    "lat": "50.356529",
+    "lng": "20.030126"
+  },
+  {
+    "city": "Konin",
+    "population": "",
+    "lat": "52.208577",
+    "lng": "18.254103"
+  },
+  {
+    "city": "G\u00f3ra",
+    "population": "",
+    "lat": "51.668392",
+    "lng": "16.538039"
+  },
+  {
+    "city": "\u017bory",
+    "population": "",
+    "lat": "50.044976",
+    "lng": "18.694315"
+  },
+  {
+    "city": "Ciechan\u00f3w",
+    "population": "",
+    "lat": "52.878352",
+    "lng": "20.618754"
+  },
+  {
+    "city": "My\u015blenice",
+    "population": "",
+    "lat": "49.831956",
+    "lng": "19.9441"
+  },
+  {
+    "city": "My\u015blib\u00f3rz",
+    "population": "",
+    "lat": "52.92174",
+    "lng": "14.863315"
+  },
+  {
+    "city": "Lubin",
+    "population": "",
+    "lat": "51.400825",
+    "lng": "16.203381"
+  },
+  {
+    "city": "Tarnobrzeg",
+    "population": "",
+    "lat": "50.572007",
+    "lng": "21.684761"
+  },
+  {
+    "city": "Piotrk\u00f3w Trybunalski",
+    "population": "",
+    "lat": "51.410445",
+    "lng": "19.694952"
+  },
+  {
+    "city": "Gryfice",
+    "population": "",
+    "lat": "53.91624",
+    "lng": "15.198219"
+  },
+  {
+    "city": "Gryfino",
+    "population": "",
+    "lat": "53.253865",
+    "lng": "14.490097"
+  },
+  {
+    "city": "Dzier\u017coni\u00f3w",
+    "population": "",
+    "lat": "50.732045",
+    "lng": "16.648718"
+  },
+  {
+    "city": "Grudzi\u0105dz",
+    "population": "",
+    "lat": "53.483333",
+    "lng": "18.774123"
+  },
+  {
+    "city": "P\u0142ock",
+    "population": "",
+    "lat": "52.55",
+    "lng": "19.7"
+  },
+  {
+    "city": "Przasnysz",
+    "population": "",
+    "lat": "53.020284",
+    "lng": "20.882391"
+  },
+  {
+    "city": "Goleni\u00f3w",
+    "population": "",
+    "lat": "53.563753",
+    "lng": "14.830032"
+  },
+  {
+    "city": "Z\u0105bkowice \u015al\u0105skie",
+    "population": "",
+    "lat": "50.591954",
+    "lng": "16.818407"
+  },
+  {
+    "city": "W\u0142odawa",
+    "population": "",
+    "lat": "51.55",
+    "lng": "23.55"
+  },
+  {
+    "city": "Opoczno",
+    "population": "",
+    "lat": "51.375821",
+    "lng": "20.286737"
+  },
+  {
+    "city": "Rybnik",
+    "population": "",
+    "lat": "50.092076",
+    "lng": "18.547479"
+  },
+  {
+    "city": "Jas\u0142o",
+    "population": "",
+    "lat": "49.743718",
+    "lng": "21.47095"
+  },
+  {
+    "city": "Trzebnica",
+    "population": "",
+    "lat": "51.309886",
+    "lng": "17.062849"
+  },
+  {
+    "city": "Mak\u00f3w Mazowiecki",
+    "population": "",
+    "lat": "52.866667",
+    "lng": "21.1"
+  },
+  {
+    "city": "Proszowice",
+    "population": "",
+    "lat": "50.192241",
+    "lng": "20.291"
+  },
+  {
+    "city": "Chojnice",
+    "population": "",
+    "lat": "53.695062",
+    "lng": "17.566093"
+  },
+  {
+    "city": "Przemy\u015bl",
+    "population": "",
+    "lat": "49.782476",
+    "lng": "22.79228"
+  },
+  {
+    "city": "Sieradz",
+    "population": "",
+    "lat": "51.595347",
+    "lng": "18.725345"
+  },
+  {
+    "city": "\u0141obez",
+    "population": "",
+    "lat": "53.638794",
+    "lng": "15.62231"
+  },
+  {
+    "city": "Mr\u0105gowo",
+    "population": "",
+    "lat": "53.866667",
+    "lng": "21.3"
+  },
+  {
+    "city": "Lipsko",
+    "population": "",
+    "lat": "51.158672",
+    "lng": "21.648668"
+  },
+  {
+    "city": "\u015awinouj\u015bcie",
+    "population": "",
+    "lat": "53.909148",
+    "lng": "14.240035"
+  },
+  {
+    "city": "Nysa",
+    "population": "",
+    "lat": "50.47226",
+    "lng": "17.33618"
+  },
+  {
+    "city": "Wrze\u015bnia",
+    "population": "",
+    "lat": "52.323234",
+    "lng": "17.569913"
+  },
+  {
+    "city": "Sopot",
+    "population": "",
+    "lat": "54.434676",
+    "lng": "18.57076"
+  },
+  {
+    "city": "Kwidzyn",
+    "population": "",
+    "lat": "53.724949",
+    "lng": "18.931137"
+  },
+  {
+    "city": "Ostro\u0142\u0119ka",
+    "population": "",
+    "lat": "53.086206",
+    "lng": "21.575663"
+  },
+  {
+    "city": "Brzeg",
+    "population": "",
+    "lat": "50.857495",
+    "lng": "17.46976"
+  },
+  {
+    "city": "\u015aroda Wielkopolska",
+    "population": "",
+    "lat": "52.227622",
+    "lng": "17.279907"
+  },
+  {
+    "city": "\u015aroda \u015al\u0105ska",
+    "population": "",
+    "lat": "51.164565",
+    "lng": "16.593952"
+  },
+  {
+    "city": "L\u0119bork",
+    "population": "",
+    "lat": "54.539214",
+    "lng": "17.750121"
+  },
+  {
+    "city": "Gi\u017cycko",
+    "population": "",
+    "lat": "54.03811",
+    "lng": "21.764411"
+  },
+  {
+    "city": "Soko\u0142\u00f3w Podlaski",
+    "population": "",
+    "lat": "52.407477",
+    "lng": "22.251923"
+  },
+  {
+    "city": "Zakopane",
+    "population": "",
+    "lat": "49.296247",
+    "lng": "19.956785"
+  },
+  {
+    "city": "\u017buromin",
+    "population": "",
+    "lat": "53.067232",
+    "lng": "19.911376"
+  },
+  {
+    "city": "\u0141\u0119czyca",
+    "population": "",
+    "lat": "52.059352",
+    "lng": "19.20184"
+  },
+  {
+    "city": "Myszk\u00f3w",
+    "population": "",
+    "lat": "50.575202",
+    "lng": "19.324607"
+  },
+  {
+    "city": "Kluczbork",
+    "population": "",
+    "lat": "50.97429",
+    "lng": "18.213765"
+  },
+  {
+    "city": "Kolbuszowa",
+    "population": "",
+    "lat": "50.241504",
+    "lng": "21.769935"
+  },
+  {
+    "city": "Starogard Gda\u0144ski",
+    "population": "",
+    "lat": "53.968898",
+    "lng": "18.535355"
+  },
+  {
+    "city": "Hajn\u00f3wka",
+    "population": "",
+    "lat": "52.743281",
+    "lng": "23.581223"
+  },
+  {
+    "city": "Byt\u00f3w",
+    "population": "",
+    "lat": "54.176362",
+    "lng": "17.487638"
+  },
+  {
+    "city": "Otwock",
+    "population": "",
+    "lat": "52.118856",
+    "lng": "21.308008"
+  },
+  {
+    "city": "D\u0119bica",
+    "population": "",
+    "lat": "50.052379",
+    "lng": "21.414763"
+  },
+  {
+    "city": "W\u0142oc\u0142awek",
+    "population": "",
+    "lat": "52.651435",
+    "lng": "19.072755"
+  },
+  {
+    "city": "Malbork",
+    "population": "",
+    "lat": "54.03596",
+    "lng": "19.03452"
+  },
+  {
+    "city": "Przeworsk",
+    "population": "",
+    "lat": "50.059053",
+    "lng": "22.49486"
+  },
+  {
+    "city": "Wo\u0142\u00f3w",
+    "population": "",
+    "lat": "51.339044",
+    "lng": "16.646788"
+  },
+  {
+    "city": "Ko\u015bcierzyna",
+    "population": "",
+    "lat": "54.124787",
+    "lng": "17.972062"
+  },
+  {
+    "city": "Jelenia G\u00f3ra",
+    "population": "",
+    "lat": "50.89828",
+    "lng": "15.729929"
+  },
+  {
+    "city": "Ropczyce",
+    "population": "",
+    "lat": "50.05257",
+    "lng": "21.609053"
+  },
+  {
+    "city": "Wschowa",
+    "population": "",
+    "lat": "51.805426",
+    "lng": "16.317381"
+  },
+  {
+    "city": "Mi\u0119dzyrzecz",
+    "population": "",
+    "lat": "52.447891",
+    "lng": "15.581652"
+  },
+  {
+    "city": "Kazimierza Wielka",
+    "population": "",
+    "lat": "50.265426",
+    "lng": "20.493057"
+  },
+  {
+    "city": "Krotoszyn",
+    "population": "",
+    "lat": "51.698677",
+    "lng": "17.437383"
+  },
+  {
+    "city": "Cz\u0119stochowa",
+    "population": "",
+    "lat": "50.796455",
+    "lng": "19.124088"
+  },
+  {
+    "city": "Gostynin",
+    "population": "",
+    "lat": "52.429429",
+    "lng": "19.46628"
+  },
+  {
+    "city": "Rawa Mazowiecka",
+    "population": "",
+    "lat": "51.764368",
+    "lng": "20.254933"
+  },
+  {
+    "city": "Ostr\u00f3w Wielkopolski",
+    "population": "",
+    "lat": "51.649762",
+    "lng": "17.808934"
+  },
+  {
+    "city": "Gr\u00f3jec",
+    "population": "",
+    "lat": "51.862518",
+    "lng": "20.867569"
+  },
+  {
+    "city": "\u0141owicz",
+    "population": "",
+    "lat": "52.113739",
+    "lng": "19.948742"
+  },
+  {
+    "city": "\u015awidwin",
+    "population": "",
+    "lat": "53.776279",
+    "lng": "15.775524"
+  },
+  {
+    "city": "Bieru\u0144",
+    "population": "",
+    "lat": "50.091064",
+    "lng": "19.090982"
+  },
+  {
+    "city": "Siedlce",
+    "population": "",
+    "lat": "52.168215",
+    "lng": "22.277296"
+  },
+  {
+    "city": "\u0141om\u017ca",
+    "population": "",
+    "lat": "53.173552",
+    "lng": "22.06538"
+  },
+  {
+    "city": "Busko-Zdr\u00f3j",
+    "population": "",
+    "lat": "50.466667",
+    "lng": "20.716667"
+  },
+  {
+    "city": "Jastrz\u0119bie-Zdr\u00f3j",
+    "population": "",
+    "lat": "49.933639",
+    "lng": "18.601372"
+  },
+  {
+    "city": "Golub-Dobrzy\u0144",
+    "population": "",
+    "lat": "53.109425",
+    "lng": "19.054212"
+  },
+  {
+    "city": "Zambr\u00f3w",
+    "population": "",
+    "lat": "52.985607",
+    "lng": "22.242249"
+  },
+  {
+    "city": "Brzesko",
+    "population": "",
+    "lat": "49.970044",
+    "lng": "20.607661"
+  },
+  {
+    "city": "W\u0105growiec",
+    "population": "",
+    "lat": "52.811659",
+    "lng": "17.207376"
+  },
+  {
+    "city": "Tomasz\u00f3w Lubelski",
+    "population": "",
+    "lat": "50.453239",
+    "lng": "23.414238"
+  },
+  {
+    "city": "Tomasz\u00f3w Mazowiecki",
+    "population": "",
+    "lat": "51.538614",
+    "lng": "20.017606"
+  },
+  {
+    "city": "Suwa\u0142ki",
+    "population": "",
+    "lat": "54.099444",
+    "lng": "22.933056"
+  },
+  {
+    "city": "Rawicz",
+    "population": "",
+    "lat": "51.611313",
+    "lng": "16.861194"
+  },
+  {
+    "city": "Chorz\u00f3w",
+    "population": "",
+    "lat": "50.305817",
+    "lng": "18.974203"
+  },
+  {
+    "city": "Wolsztyn",
+    "population": "",
+    "lat": "52.112706",
+    "lng": "16.12361"
+  },
+  {
+    "city": "Pruszcz Gda\u0144ski",
+    "population": "",
+    "lat": "54.26121",
+    "lng": "18.648054"
+  },
+  {
+    "city": "Szczecinek",
+    "population": "",
+    "lat": "53.707908",
+    "lng": "16.699373"
+  },
+  {
+    "city": "Grajewo",
+    "population": "",
+    "lat": "53.648062",
+    "lng": "22.459669"
+  },
+  {
+    "city": "Zdu\u0144ska Wola",
+    "population": "",
+    "lat": "51.59741",
+    "lng": "18.931347"
+  },
+  {
+    "city": "Wa\u0142brzych",
+    "population": "",
+    "lat": "50.771407",
+    "lng": "16.28432"
+  },
+  {
+    "city": "P\u0142o\u0144sk",
+    "population": "",
+    "lat": "52.622238",
+    "lng": "20.37532"
+  },
+  {
+    "city": "Bielsk Podlaski",
+    "population": "",
+    "lat": "52.770017",
+    "lng": "23.190889"
+  },
+  {
+    "city": "Zawiercie",
+    "population": "",
+    "lat": "50.488242",
+    "lng": "19.431832"
+  },
+  {
+    "city": "Sul\u0119cin",
+    "population": "",
+    "lat": "52.443562",
+    "lng": "15.118347"
+  },
+  {
+    "city": "August\u00f3w",
+    "population": "",
+    "lat": "53.844711",
+    "lng": "22.980133"
+  },
+  {
+    "city": "Wo\u0142omin",
+    "population": "",
+    "lat": "52.346753",
+    "lng": "21.239244"
+  },
+  {
+    "city": "Radziej\u00f3w",
+    "population": "",
+    "lat": "52.622649",
+    "lng": "18.528425"
+  },
+  {
+    "city": "Jawor",
+    "population": "",
+    "lat": "51.051317",
+    "lng": "16.193471"
+  },
+  {
+    "city": "Bi\u0142goraj",
+    "population": "",
+    "lat": "50.53583",
+    "lng": "22.727577"
+  },
+  {
+    "city": "Piaseczno",
+    "population": "",
+    "lat": "52.070345",
+    "lng": "21.027177"
+  },
+  {
+    "city": "Gorz\u00f3w Wielkopolski",
+    "population": "",
+    "lat": "52.73679",
+    "lng": "15.228775"
+  },
+  {
+    "city": "Puck",
+    "population": "",
+    "lat": "54.718542",
+    "lng": "18.41085"
+  },
+  {
+    "city": "Miko\u0142\u00f3w",
+    "population": "",
+    "lat": "50.17103",
+    "lng": "18.904098"
+  },
+  {
+    "city": "Sosnowiec",
+    "population": "",
+    "lat": "50.272243",
+    "lng": "19.155039"
+  },
+  {
+    "city": "Tarn\u00f3w",
+    "population": "",
+    "lat": "50.006105",
+    "lng": "20.95527"
+  },
+  {
+    "city": "Go\u0142dap",
+    "population": "",
+    "lat": "54.309055",
+    "lng": "22.303898"
+  },
+  {
+    "city": "W\u0119gorzewo",
+    "population": "",
+    "lat": "54.215669",
+    "lng": "21.737202"
+  },
+  {
+    "city": "Kamienna G\u00f3ra",
+    "population": "",
+    "lat": "50.783136",
+    "lng": "16.030371"
+  },
+  {
+    "city": "Wieliczka",
+    "population": "",
+    "lat": "49.984057",
+    "lng": "20.062219"
+  },
+  {
+    "city": "M\u0142awa",
+    "population": "",
+    "lat": "53.116667",
+    "lng": "20.383333"
+  },
+  {
+    "city": "Namys\u0142\u00f3w",
+    "population": "",
+    "lat": "51.075035",
+    "lng": "17.714347"
+  },
+  {
+    "city": "Siemianowice \u015al\u0105skie",
+    "population": "",
+    "lat": "50.304126",
+    "lng": "19.035834"
+  },
+  {
+    "city": "Siemiatycze",
+    "population": "",
+    "lat": "52.42719",
+    "lng": "22.862311"
+  },
+  {
+    "city": "Nowa S\u00f3l",
+    "population": "",
+    "lat": "51.803937",
+    "lng": "15.715998"
+  },
+  {
+    "city": "Milicz",
+    "population": "",
+    "lat": "51.526373",
+    "lng": "17.276928"
+  },
+  {
+    "city": "Piekary \u015al\u0105skie",
+    "population": "",
+    "lat": "50.384664",
+    "lng": "18.944183"
+  },
+  {
+    "city": "J\u0119drzej\u00f3w",
+    "population": "",
+    "lat": "50.640023",
+    "lng": "20.305868"
+  },
+  {
+    "city": "Radom",
+    "population": "",
+    "lat": "51.400963",
+    "lng": "21.15809"
+  },
+  {
+    "city": "K\u0119pno",
+    "population": "",
+    "lat": "51.278425",
+    "lng": "17.985831"
+  },
+  {
+    "city": "K\u0119dzierzyn-Ko\u017ale",
+    "population": "",
+    "lat": "50.35",
+    "lng": "18.2"
+  },
+  {
+    "city": "Pi\u0144cz\u00f3w",
+    "population": "",
+    "lat": "50.520961",
+    "lng": "20.526694"
+  },
+  {
+    "city": "Bochnia",
+    "population": "",
+    "lat": "49.97215",
+    "lng": "20.426816"
+  },
+  {
+    "city": "O\u0142awa",
+    "population": "",
+    "lat": "50.942078",
+    "lng": "17.299643"
+  },
+  {
+    "city": "Ostrowiec \u015awi\u0119tokrzyski",
+    "population": "",
+    "lat": "50.939932",
+    "lng": "21.387944"
+  },
+  {
+    "city": "Ko\u015bcian",
+    "population": "",
+    "lat": "52.088293",
+    "lng": "16.648657"
+  },
+  {
+    "city": "Ko\u0142obrzeg",
+    "population": "",
+    "lat": "54.175112",
+    "lng": "15.591352"
+  },
+  {
+    "city": "Leszno",
+    "population": "",
+    "lat": "51.848268",
+    "lng": "16.57022"
+  },
+  {
+    "city": "Brzeziny",
+    "population": "",
+    "lat": "51.800545",
+    "lng": "19.749864"
+  },
+  {
+    "city": "Prudnik",
+    "population": "",
+    "lat": "50.323175",
+    "lng": "17.576214"
+  },
+  {
+    "city": "Chodzie\u017c",
+    "population": "",
+    "lat": "52.993089",
+    "lng": "16.91405"
+  },
+  {
+    "city": "O\u015bwi\u0119cim",
+    "population": "",
+    "lat": "50.036838",
+    "lng": "19.230829"
+  },
+  {
+    "city": "\u017bywiec",
+    "population": "",
+    "lat": "49.686713",
+    "lng": "19.194226"
+  },
+  {
+    "city": "Aleksandr\u00f3w Kujawski",
+    "population": "",
+    "lat": "52.877639",
+    "lng": "18.703163"
+  },
+  {
+    "city": "D\u0105browa Tarnowska",
+    "population": "",
+    "lat": "50.174915",
+    "lng": "20.990776"
+  },
+  {
+    "city": "Mi\u0144sk Mazowiecki",
+    "population": "",
+    "lat": "52.181875",
+    "lng": "21.565981"
+  },
+  {
+    "city": "Pu\u0142awy",
+    "population": "",
+    "lat": "51.416667",
+    "lng": "21.966667"
+  },
+  {
+    "city": "Ole\u015bnica",
+    "population": "",
+    "lat": "51.207733",
+    "lng": "17.386545"
+  },
+  {
+    "city": "Ostr\u00f3da",
+    "population": "",
+    "lat": "53.699585",
+    "lng": "19.962986"
+  },
+  {
+    "city": "Podd\u0119bice",
+    "population": "",
+    "lat": "51.893139",
+    "lng": "18.956442"
+  },
+  {
+    "city": "S\u0142awno",
+    "population": "",
+    "lat": "54.361546",
+    "lng": "16.67801"
+  },
+  {
+    "city": "W\u0105brze\u017ano",
+    "population": "",
+    "lat": "53.280183",
+    "lng": "18.948288"
+  },
+  {
+    "city": "Jaros\u0142aw",
+    "population": "",
+    "lat": "50.016381",
+    "lng": "22.677813"
+  },
+  {
+    "city": "Lubliniec",
+    "population": "",
+    "lat": "50.672289",
+    "lng": "18.68672"
+  },
+  {
+    "city": "\u0141uk\u00f3w",
+    "population": "",
+    "lat": "51.928998",
+    "lng": "22.379556"
+  },
+  {
+    "city": "Nowy S\u0105cz",
+    "population": "",
+    "lat": "49.621766",
+    "lng": "20.697053"
+  },
+  {
+    "city": "Krosno Odrza\u0144skie",
+    "population": "",
+    "lat": "52.052902",
+    "lng": "15.100955"
+  },
+  {
+    "city": "Pleszew",
+    "population": "",
+    "lat": "51.895386",
+    "lng": "17.782928"
+  },
+  {
+    "city": "Toru\u0144",
+    "population": "",
+    "lat": "53.035831",
+    "lng": "18.604844"
+  },
+  {
+    "city": "Strzy\u017c\u00f3w",
+    "population": "",
+    "lat": "49.872663",
+    "lng": "21.797049"
+  },
+  {
+    "city": "Wyszk\u00f3w",
+    "population": "",
+    "lat": "52.596407",
+    "lng": "21.457539"
+  },
+  {
+    "city": "Szamotu\u0142y",
+    "population": "",
+    "lat": "52.61267",
+    "lng": "16.581905"
+  },
+  {
+    "city": "Wa\u0142cz",
+    "population": "",
+    "lat": "53.277869",
+    "lng": "16.471218"
+  },
+  {
+    "city": "\u015awidnica",
+    "population": "",
+    "lat": "50.841705",
+    "lng": "16.479066"
+  },
+  {
+    "city": "Grodzisk Wielkopolski",
+    "population": "",
+    "lat": "52.227622",
+    "lng": "16.365335"
+  },
+  {
+    "city": "Strzelce Opolskie",
+    "population": "",
+    "lat": "50.513404",
+    "lng": "18.305401"
+  },
+  {
+    "city": "Kolno",
+    "population": "",
+    "lat": "53.409314",
+    "lng": "21.932665"
+  },
+  {
+    "city": "Ko\u0142o",
+    "population": "",
+    "lat": "52.207244",
+    "lng": "18.631954"
+  },
+  {
+    "city": "I\u0142awa",
+    "population": "",
+    "lat": "53.586851",
+    "lng": "19.560983"
+  },
+  {
+    "city": "Szczytno",
+    "population": "",
+    "lat": "53.562589",
+    "lng": "20.987474"
+  },
+  {
+    "city": "Mo\u0144ki",
+    "population": "",
+    "lat": "53.404957",
+    "lng": "22.79791"
+  },
+  {
+    "city": "Cz\u0142uch\u00f3w",
+    "population": "",
+    "lat": "53.672639",
+    "lng": "17.361185"
+  },
+  {
+    "city": "\u015awiedbodzin",
+    "population": "",
+    "lat": "52.247626",
+    "lng": "15.532817"
+  },
+  {
+    "city": "\u015arem",
+    "population": "",
+    "lat": "52.088712",
+    "lng": "17.0173"
+  },
+  {
+    "city": "Z\u0142otoryja",
+    "population": "",
+    "lat": "51.123612",
+    "lng": "15.915771"
+  },
+  {
+    "city": "Sandomierz",
+    "population": "",
+    "lat": "50.685808",
+    "lng": "21.738864"
+  },
+  {
+    "city": "Z\u0142ot\u00f3w",
+    "population": "",
+    "lat": "53.361739",
+    "lng": "17.045241"
+  },
+  {
+    "city": "Lw\u00f3wek \u015al\u0105ski",
+    "population": "",
+    "lat": "51.108956",
+    "lng": "15.582667"
+  },
+  {
+    "city": "Kutno",
+    "population": "",
+    "lat": "52.228954",
+    "lng": "19.361672"
+  },
+  {
+    "city": "Braniewo",
+    "population": "",
+    "lat": "54.379722",
+    "lng": "19.82"
+  },
+  {
+    "city": "\u0141osice",
+    "population": "",
+    "lat": "52.211567",
+    "lng": "22.714071"
+  },
+  {
+    "city": "Krosno",
+    "population": "",
+    "lat": "49.688663",
+    "lng": "21.770579"
+  },
+  {
+    "city": "Pabianice",
+    "population": "",
+    "lat": "51.655351",
+    "lng": "19.345602"
+  },
+  {
+    "city": "K\u0142odzko",
+    "population": "",
+    "lat": "50.436362",
+    "lng": "16.653612"
+  },
+  {
+    "city": "Przysucha",
+    "population": "",
+    "lat": "51.359529",
+    "lng": "20.626215"
+  },
+  {
+    "city": "Jan\u00f3w Lubelski",
+    "population": "",
+    "lat": "50.706673",
+    "lng": "22.412479"
+  },
+  {
+    "city": "\u017bary",
+    "population": "",
+    "lat": "51.638165",
+    "lng": "15.141717"
+  },
+  {
+    "city": "Drawsko Pomorskie",
+    "population": "",
+    "lat": "53.529754",
+    "lng": "15.80987"
+  }
+]
