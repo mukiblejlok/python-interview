@@ -1,21 +1,26 @@
 import pytest
+from questions.question1 import answer1
+from questions.question2 import answer2
+from questions.question3 import answer3
+from questions.question4 import answer4, CitiesInfo
 
 
 class TestQuestions:
 
     def test_question_1(self):
-        from questions.question1 import answer
-        assert answer == ['Warsaw', 'Łódź', 'Kraków', 'Wrocław', 'Poznań',
+        assert isinstance(answer1, list)
+        assert answer1 == ['Warsaw', 'Łódź', 'Kraków', 'Wrocław', 'Poznań',
                           'Gdańsk', 'Szczecin', 'Bydgoszcz', 'Lublin', 'Katowice']
 
     def test_question_2(self):
-        from questions.question2 import answer
-        assert answer == "Chrzanów"
+        assert isinstance(answer2, str)
+        assert answer2 == "Chrzanów"
 
     def test_question_3(self):
-        from questions.question3 import answer
-        assert answer is False
+        assert isinstance(answer3, bool)
+        assert answer3 is False
 
-    @pytest.mark.skip
     def test_question_4(self):
-        pass
+        assert isinstance(answer4, CitiesInfo)
+
+        assert answer4 == "Chrzanów"
