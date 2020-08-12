@@ -1,7 +1,7 @@
 """
 Question
 
-Find top ten biggest cities in Poland.
+Find top ten biggest cities.
 
 Use data from file pointed by cities_data_path variable
 Result should be in form of a list of strings assigned to variable 'answer1'.

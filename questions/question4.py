@@ -3,8 +3,10 @@ Question
 
 Create a CitiesInfo class that is initialized with cities_data and
 provides a two methods:
-* bigger_than(population: int) -> List[Dict]
-* closest_to(lat: float, lng: float) -> List[Dict]
+* bigger_than(population: int) -> List[str]
+  list of city names bigger than the population
+* closest_to(lat: float, lng: float, n: int) -> List[str]
+  list of n cities closest to the given coordinates
 
 Use data from file pointed by cities_data_path variable
 

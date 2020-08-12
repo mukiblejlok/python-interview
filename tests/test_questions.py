@@ -22,5 +22,7 @@ class TestQuestions:
 
     def test_question_4(self):
         assert isinstance(answer4, CitiesInfo)
-
-        assert answer4 == "Chrzanów"
+        assert hasattr(answer4, "bigger_than")
+        assert hasattr(answer4, "closest_to")
+        assert answer4.bigger_than(population=500000) == ['Warsaw', 'Łódź', 'Kraków', 'Wrocław', 'Poznań']
+        assert answer4.closest_to(lat=50.103611, lng=19.315556, n=3) == ['Chrzanów', 'Oświęcim', 'Jaworzno']
