@@ -1,6 +1,6 @@
 import pytest
-from questions.question1 import answer1
-from questions.question2 import answer2
+from questions.q01_top10_biggest_cities import answer1
+from questions.q02_closest_city import answer2
 from questions.question3 import answer3
 from questions.question4 import answer4, CitiesInfo
 
