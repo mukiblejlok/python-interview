@@ -1,28 +1,36 @@
-import pytest
-from questions.q01_top10_biggest_cities import answer1
-from questions.q02_closest_city import answer2
-from questions.question3 import answer3
-from questions.question4 import answer4, CitiesInfo
+import os
+
+from questions.question1 import find_top_10
+from questions.question2 import find_closest_city
+from questions.question3 import check_if_higher
+from questions.question4 import CitiesInfo
 
 
 class TestQuestions:
+    data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, "questions", "data", "cities.json")
 
     def test_question_1(self):
-        assert isinstance(answer1, list)
-        assert answer1 == ['Warsaw', 'Łódź', 'Kraków', 'Wrocław', 'Poznań',
+        result = find_top_10(path=self.data_path)
+        assert isinstance(result, list)
+        assert result == ['Warsaw', 'Łódź', 'Kraków', 'Wrocław', 'Poznań',
                           'Gdańsk', 'Szczecin', 'Bydgoszcz', 'Lublin', 'Katowice']
 
     def test_question_2(self):
-        assert isinstance(answer2, str)
-        assert answer2 == "Chrzanów"
+        result = find_closest_city(path=self.data_path, coordinates=(50.103611, 19.315556))
+        assert isinstance(result, str)
+        assert result == "Chrzanów"
 
     def test_question_3(self):
-        assert isinstance(answer3, bool)
-        assert answer3 is False
+        kat_coordinates = 50.258415, 19.027545
+        kra_coordinates = 50.057531, 19.980216
+        result = check_if_higher(path=self.data_path, city1=kra_coordinates, city2=kat_coordinates)
+        assert isinstance(result, bool)
+        assert result is False
 
     def test_question_4(self):
-        assert isinstance(answer4, CitiesInfo)
-        assert hasattr(answer4, "bigger_than")
-        assert hasattr(answer4, "closest_to")
-        assert answer4.bigger_than(population=500000) == ['Warsaw', 'Łódź', 'Kraków', 'Wrocław', 'Poznań']
-        assert answer4.closest_to(lat=50.103611, lng=19.315556, n=3) == ['Chrzanów', 'Oświęcim', 'Jaworzno']
+        ci = CitiesInfo(path=self.data_path)
+        assert isinstance(ci, CitiesInfo)
+        assert hasattr(ci, "bigger_than")
+        assert hasattr(ci, "closest_to")
+        assert getattr(ci, "bigger_than")(population=500000) == ['Warsaw', 'Łódź', 'Kraków', 'Wrocław', 'Poznań']
+        assert getattr(ci, "closest_to")(lat=50.103611, lng=19.315556, n=3) == ['Chrzanów', 'Oświęcim', 'Jaworzno']
