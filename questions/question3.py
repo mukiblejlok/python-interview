@@ -13,15 +13,23 @@ Result should be a bool:
 True if city1 is higher than city2.
 
 """
-cities_data_path = r"data\cities.json"
-
 
 # Your solution here
-def check_if_higher(path: str, city1: str, city2: str) -> bool:
+import json
+from typing import Tuple
+
+import requests
+import os
+
+
+def check_if_higher(path: str, city1: Tuple[float, float], city2: Tuple[float, float]) -> bool:
     pass
 
 
 if __name__ == '__main__':
+    cities_data_path = r"data\cities.json"
     # Is Krakow elevated higher than Katowice?
-    is_kra_higher = check_if_higher(path=cities_data_path, city1="Krakow", city2="Katowice")
+    kat_coordinates = 50.258415, 19.027545
+    kra_coordinates = 50.057531, 19.980216
+    is_kra_higher = check_if_higher(path=cities_data_path, city1=kra_coordinates, city2=kat_coordinates)
     print(is_kra_higher)

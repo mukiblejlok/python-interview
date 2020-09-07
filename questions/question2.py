@@ -9,8 +9,8 @@ Use data from file pointed by cities_data_path variable
 Result should be a string.
 """
 from typing import Tuple
-
-cities_data_path = r"data\cities.json"
+import json
+from questions.helpers.distance import calculate_distance
 
 
 # Your solution here
@@ -19,6 +19,7 @@ def find_closest_city(path: str, coordinates: Tuple[float, float]) -> str:
 
 
 if __name__ == '__main__':
+    cities_data_path = r"data\cities.json"
     test_coordinates = (50.103611, 19.315556)
     result = find_closest_city(path=cities_data_path, coordinates=test_coordinates)
     print(result)

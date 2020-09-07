@@ -12,15 +12,18 @@ Use data from file pointed by cities_data_path variable
 
 Result should be a CitiesInfo class.
 """
-cities_data_path = r"data\cities.json"
-
 
 # Your solution here
+import json
+from questions.helpers.distance import calculate_distance
+
+
 class CitiesInfo:
     def __init__(self, path: str):
         pass
 
 
 if __name__ == '__main__':
+    cities_data_path = r"data\cities.json"
     ci = CitiesInfo(path=cities_data_path)
 

@@ -7,7 +7,7 @@ from questions.question4 import CitiesInfo
 
 
 class TestQuestions:
-    data_path = os.path.join(os.pardir, os.path.dirname(os.path.abspath(__file__)), "questions", "cities.json")
+    data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, "questions", "data", "cities.json")
 
     def test_question_1(self):
         result = find_top_10(path=self.data_path)
@@ -21,7 +21,9 @@ class TestQuestions:
         assert result == "Chrzanów"
 
     def test_question_3(self):
-        result = check_if_higher(path=self.data_path, city1="Krakow", city2="Katowice")
+        kat_coordinates = 50.258415, 19.027545
+        kra_coordinates = 50.057531, 19.980216
+        result = check_if_higher(path=self.data_path, city1=kra_coordinates, city2=kat_coordinates)
         assert isinstance(result, bool)
         assert result is False
 

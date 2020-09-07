@@ -9,8 +9,7 @@ Use data from file pointed by cities_data_path variable
 Result should be in form of a list of strings.
 """
 from typing import List
-
-cities_data_path = r"data\cities.json"
+import json
 
 
 # Your solution here
@@ -19,5 +18,6 @@ def find_top_10(path: str) -> List[str]:
 
 
 if __name__ == '__main__':
+    cities_data_path = r"data\cities.json"
     top_10 = find_top_10(path=cities_data_path)
     print(top_10)
