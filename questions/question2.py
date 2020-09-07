@@ -1,17 +1,24 @@
 """
 Question
 
-Find name of the city which is closest to Libiąż (50.103611, 19.315556)
+Create a function 'find_closest_city'
+that takes a path to data file and coordinates
+and returns a name of the city closest to the provided coordinates.
 
 Use data from file pointed by cities_data_path variable
-Result should be a string assigned to variable 'answer2'.
+Result should be a string.
 """
-from questions.helpers.paths import cities_data_path
+from typing import Tuple
+
+cities_data_path = r"data\cities.json"
+
 
 # Your solution here
+def find_closest_city(path: str, coordinates: Tuple[float, float]) -> str:
+    pass
 
-# Your answer here
-answer2 = ""
 
 if __name__ == '__main__':
-    print(answer2)
+    test_coordinates = (50.103611, 19.315556)
+    result = find_closest_city(path=cities_data_path, coordinates=test_coordinates)
+    print(result)

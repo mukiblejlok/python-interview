@@ -1,7 +1,7 @@
 """
 Question
 
-Create a CitiesInfo class that is initialized with cities_data and
+Create a 'CitiesInfo' class that is initialized with path to data file and
 provides a two methods:
 * bigger_than(population: int) -> List[str]
   list of city names bigger than the population
@@ -10,9 +10,9 @@ provides a two methods:
 
 Use data from file pointed by cities_data_path variable
 
-Result should be an object of a CitiesInfo class initialized with 'cities_data_path' assigned to variable 'answer4'.
+Result should be a CitiesInfo class.
 """
-from questions.helpers.paths import cities_data_path
+cities_data_path = r"data\cities.json"
 
 
 # Your solution here
@@ -21,9 +21,6 @@ class CitiesInfo:
         pass
 
 
-# Your answer here
-answer4 = CitiesInfo(path=cities_data_path)
-
-
 if __name__ == '__main__':
-    print(answer4)
+    ci = CitiesInfo(path=cities_data_path)
+
