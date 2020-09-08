@@ -7,7 +7,7 @@ that checks if one city is elevated higher than the other.
 Use data from file pointed by cities_data_path variable
 
 To get the elevation data use "https://elevation-api.io/"
-with key taken from environmental variable "ELEVATION_API_KEY"
+with API Key provided by an interviewer
 
 Result should be a bool:
 True if city1 is higher than city2.
@@ -19,7 +19,6 @@ import json
 from typing import Tuple
 
 import requests
-import os
 
 
 def check_if_higher(path: str, city1: Tuple[float, float], city2: Tuple[float, float]) -> bool:
