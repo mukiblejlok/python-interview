@@ -38,6 +38,9 @@ def check_if_higher(path: str, city1: Tuple[float, float], city2: Tuple[float, f
 
 
 if __name__ == '__main__':
+    from dotenv import load_dotenv
+
+    load_dotenv()
     cities_data_path = r"data\cities.json"
     # Is Krakow elevated higher than Katowice?
     kat_coordinates = 50.258415, 19.027545
