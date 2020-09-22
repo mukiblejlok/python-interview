@@ -15,11 +15,12 @@ import json
 # Your solution here
 def find_top_10(path: str) -> List[str]:
 
-    with open(path) as f:
+    with open(path, "r") as f:
         cities = json.load(f)
 
     cities_with_pop = [c for c in cities if c.get("population")]
-    top_10_cities = [city.get("city") for city in sorted(cities_with_pop, key=lambda c: float(c.get("population", 0)), reverse=True)][:10]
+    sorted_cities = sorted(cities_with_pop, key=lambda c: float(c.get("population", 0)), reverse=True)
+    top_10_cities = [city.get("city") for city in sorted_cities][:10]
     return top_10_cities
 
 
