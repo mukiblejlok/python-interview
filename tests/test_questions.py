@@ -5,6 +5,7 @@ from questions.question2 import find_closest_city
 from questions.question3 import check_if_higher
 from questions.question4 import CitiesInfo
 from questions.question5 import Version
+from questions.question6 import StorageClient
 
 
 class TestQuestions:
@@ -41,3 +42,16 @@ class TestQuestions:
         assert Version('3.1.1') > Version(3.1)
         assert Version(3.12) > Version(3.9)
         assert Version("0.1.0") == Version(0.1)
+
+    def test_question_6(self):
+        test_cases = (
+            ("integer1", 13231412),
+            ("float", 3.2432),
+            ("boolean4234", True),
+            ("non_ascii_string", "śni się żółta łódź!")
+        )
+        sc = StorageClient()
+        for original_key, original_value in test_cases:
+            sc.set(original_key, original_value)
+            retrieved_value = sc.get(original_key)
+            assert original_value == retrieved_value
