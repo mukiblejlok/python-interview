@@ -84,11 +84,11 @@ class StorageClient:
 
     def get(self, key: str, default: Any = None) -> Any:
         """
-        This method allows to get the value from the internal MSTore base on provided key.
+        This method allows to get the value from the internal MSTore based on provided key.
         It also supports the default value parameter. If not provided, the default is None.
         :param key: Key as a string
         :param default: Optional Default value to be returned if key was not found.
-        :return: Value stored under the 'key'.
+        :return: Value stored under the 'key' in it's original type.
         """
 
         # TODO update naive implementation that won't work for all cases
@@ -111,6 +111,11 @@ class StorageClient:
 if __name__ == '__main__':
     sc = StorageClient()
 
+    # For simple stuff it works out of the box
+    sc.set("SimpleString", "Mama")
+    print(sc.get("SimpleString"))
+
+    # But not for those examples
     sc.set("abbCapitalizationUSD", 13231412)
     sc.set("lengthOfMyArm", 3.332)
     sc.set("PolishAddress", "ul. żółta łódź!")
