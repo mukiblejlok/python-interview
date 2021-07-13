@@ -4,6 +4,7 @@ from questions.question1 import find_top_10
 from questions.question2 import find_closest_city
 from questions.question3 import check_if_higher
 from questions.question4 import CitiesInfo
+from questions.question5 import Version
 
 
 class TestQuestions:
@@ -34,3 +35,9 @@ class TestQuestions:
         assert hasattr(ci, "closest_to")
         assert getattr(ci, "bigger_than")(population=500000) == ['Warsaw', 'Łódź', 'Kraków', 'Wrocław', 'Poznań']
         assert getattr(ci, "closest_to")(lat=50.103611, lng=19.315556, n=3) == ['Chrzanów', 'Oświęcim', 'Jaworzno']
+
+    def test_question_5(self):
+        assert Version('3.20') > Version("3.11")
+        assert Version('3.1.1') > Version(3.1)
+        assert Version(3.12) > Version(3.9)
+        assert Version("0.1.0") == Version(0.1)

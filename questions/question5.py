@@ -10,6 +10,14 @@ from typing import Union, Sequence
 import re
 
 
+def remove_trailing_zeros(seq: Sequence[int]) -> Sequence[int]:
+    i = 0
+    for i, x in enumerate(seq[::-1]):
+        if x != 0:
+            break
+    return seq if i <= 0 else seq[:-i]
+
+
 class Version:
 
     def __init__(self, input_value: Union[Number, str], **kwargs):
@@ -24,7 +32,7 @@ class Version:
         _delimiters = " |".join(delimiters)
         elements = re.split(f"[{_delimiters}]", input_string)
         int_elements = [int(e) for e in elements]
-        return int_elements
+        return remove_trailing_zeros(int_elements)
 
     def __repr__(self):
         return ".".join(str(e) for e in self.version_tuple)
