@@ -17,8 +17,8 @@ class Version:
         self.delimiters = kwargs.get("delimiters", (".", "b", ","))
 
 
-if __name__ == '__main__':
-    print(Version('3.20') > Version("3.11"))
-    print(Version('3.1.1') > Version("3.1"))
+if __name__ == "__main__":
+    print(Version("3.20") > Version("3.11"))
+    print(Version("3.1.1") > Version("3.1"))
     print(Version(3.12) > Version(3.9))
     print(Version("0.1.0") == Version(0.1))

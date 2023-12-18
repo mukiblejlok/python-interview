@@ -12,7 +12,6 @@ The goal is to implement .get() and .set() methods in a StorageClient class
 that will allow to use the MSTore internally but support the requirements from business.
 
 """
-import base64
 from collections.abc import MutableMapping
 from typing import Union, Any
 import re
@@ -95,6 +94,7 @@ class StorageClient:
         # TODO update naive implementation that won't work for all cases
         if key in self.storage:
             return self.storage[key]
+        return default
 
     def set(self, key: str, value: Any) -> None:
         """
@@ -109,7 +109,7 @@ class StorageClient:
         self.storage[key] = value
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sc = StorageClient()
 
     # For simple stuff it works out of the box

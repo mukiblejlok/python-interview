@@ -26,9 +26,8 @@ def check_if_higher(city1: Tuple[float, float], city2: Tuple[float, float]) -> b
 
 
 if __name__ == "__main__":
-
     # Is Krakow elevated higher than Katowice?
     katowice_coordinates = 50.258415, 19.027545  # Expected elevation 264
-    krakow_coordinates = 50.057531, 19.980216    # Expected elevation 204
+    krakow_coordinates = 50.057531, 19.980216  # Expected elevation 204
     is_kra_higher = check_if_higher(city1=krakow_coordinates, city2=katowice_coordinates)
     print(is_kra_higher)

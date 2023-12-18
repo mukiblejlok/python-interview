@@ -33,4 +33,3 @@ class CitiesInfo:
 
 if __name__ == "__main__":
     ci = CitiesInfo(path=CITIES_FILE_PATH)
-

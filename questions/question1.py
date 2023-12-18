@@ -16,7 +16,7 @@ from questions import CITIES_FILE_PATH
 
 # Your solution here
 def find_top_10(path: str) -> List[str]:
-   pass
+    pass
 
 
 if __name__ == "__main__":
