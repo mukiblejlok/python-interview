@@ -10,6 +10,8 @@ Result should be a string.
 """
 from typing import Tuple
 import json
+
+from questions import CITIES_FILE_PATH
 from questions.helpers.distance import calculate_distance
 
 
@@ -18,8 +20,7 @@ def find_closest_city(path: str, coordinates: Tuple[float, float]) -> str:
     pass
 
 
-if __name__ == '__main__':
-    cities_data_path = r"data\cities.json"
+if __name__ == "__main__":
     test_coordinates = (50.103611, 19.315556)
-    result = find_closest_city(path=cities_data_path, coordinates=test_coordinates)
+    result = find_closest_city(path=CITIES_FILE_PATH, coordinates=test_coordinates)
     print(result)

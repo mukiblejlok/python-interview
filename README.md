@@ -2,14 +2,19 @@
 
 ## Prerequisites
 
-1. Create Virtual Environment.
-2. Install requirements from ```requirements.txt``` file.
-3. Copy the ```.env``` file provided by interviewer to main folder.
+1. Create Virtual Environment
+    ```
+    python3 -m venv venv
+    ```
+2. Install requirements from `pyproject.toml` file
+    ```
+    pip install .[dev]
+    ```
 
 ## Solving the questions
 
-Questions are located in  ```/questions``` folder.
-There are four of them.
+Questions are located in  `/questions` folder.
+There are six of them.
 Follow the guide on top of each file. 
 In each one you should create a working function/class that solves the problem stated in question.
 There is always an empty function/class definition provided to start with.

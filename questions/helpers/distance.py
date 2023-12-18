@@ -13,4 +13,3 @@ def calculate_distance(lat1: float, lng1: float, lat2: float, lng2: float) -> fl
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
     distance = _radius * c
     return distance
-

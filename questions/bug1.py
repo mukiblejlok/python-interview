@@ -27,7 +27,7 @@ def generate_report(results: int, template: List[str] = DEFAULT_TEMPLATE) -> Lis
     return report
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # First report with default template
     report1 = generate_report(results=1)
 
