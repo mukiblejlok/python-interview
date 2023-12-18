@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-interview"
+description = "Python interview questions for MOSE Analytics Software Team interview"
+authors = [{ name = "Filip Mularczyk", email = "filip.mularczyk@pl.abb.com"}]
+readme = "README.md"
+dynamic = ["version"]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "requests",
+]
+
+[project.urls]
+Source = "https://github.com/mukiblejlok/python-interview/"
+
+[project.optional-dependencies]
+test = [
+]
+
+code-check = [
+    "ruff",
+]
+
+dev = [
+    "python-interview",
+    "python-interview[test]",
+    "python-interview[code-check]",
+]
+
+[tool.ruff]
+line-length = 120
+ignore = ["F401", "E402"]
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore:.*:DeprecationWarning",
+    "ignore:.*:RuntimeWarning",
+]

@@ -1,8 +1,8 @@
 """
 Question
 
-Create a 'CitiesInfo' class that is initialized with path to data file and
-provides a two methods:
+Create a 'CitiesInfo' class that is initialized with path to data file and provides two methods:
+
 * bigger_than(population: int) -> List[str]
   list of city names bigger than the population
 * closest_to(lat: float, lng: float, n: int) -> List[str]
@@ -15,6 +15,8 @@ Result should be a CitiesInfo class.
 
 # Your solution here
 import json
+
+from questions import CITIES_FILE_PATH
 from questions.helpers.distance import calculate_distance
 
 
@@ -29,19 +31,17 @@ class CitiesInfo:
             city_population = city_data.get("population")
 
             if city_population and int(city_population) > population:
-                result.append(city_data.get('city'))
+                result.append(city_data.get("city"))
         return result
 
     def closest_to(self, lat: float, lng: float, n: int):
-        sorted_by_distance = sorted(self.data,
-                                    key=lambda c: calculate_distance(lat1=float(c.get("lat")),
-                                                                     lng1=float(c.get("lng")),
-                                                                     lat2=lat,
-                                                                     lng2=lng))
-        return [c.get('city') for c in sorted_by_distance[:n]]
+        sorted_by_distance = sorted(
+            self.data,
+            key=lambda c: calculate_distance(lat1=float(c.get("lat")), lng1=float(c.get("lng")), lat2=lat, lng2=lng),
+        )
+        return [c.get("city") for c in sorted_by_distance[:n]]
 
 
-if __name__ == '__main__':
-    cities_data_path = r"data\cities.json"
-    ci = CitiesInfo(path=cities_data_path)
+if __name__ == "__main__":
+    ci = CitiesInfo(path=CITIES_FILE_PATH)
 

@@ -11,10 +11,11 @@ Result should be in form of a list of strings.
 from typing import List
 import json
 
+from questions import CITIES_FILE_PATH
+
 
 # Your solution here
 def find_top_10(path: str) -> List[str]:
-
     with open(path, "r") as f:
         cities = json.load(f)
 
@@ -24,7 +25,6 @@ def find_top_10(path: str) -> List[str]:
     return top_10_cities
 
 
-if __name__ == '__main__':
-    cities_data_path = r"data\cities.json"
-    top_10 = find_top_10(path=cities_data_path)
+if __name__ == "__main__":
+    top_10 = find_top_10(path=CITIES_FILE_PATH)
     print(top_10)

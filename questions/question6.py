@@ -31,17 +31,17 @@ class MSTore(MutableMapping):
 
     @staticmethod
     def validate_key(key: Any) -> None:
-        # Has to be string ...
+        # Must be a string ...
         if not isinstance(key, str):
             raise KeyError("Key has to be string")
-        # ... matching specified requirements
-        pattern = r"^[A-Za-z][a-zA-Z0-9_]*$"
+        # ... matching the specified requirements
+        pattern = r"^[A-Za-z]\w*$"
         if not re.match(pattern, key):
             raise KeyError(f"Key has to to match regex pattern: {pattern}")
 
     @staticmethod
     def validate_value(value: Any) -> None:
-        # Has to be string ...
+        # Must be a string ...
         if not isinstance(value, str):
             raise ValueError("Value has to be string")
         # ... with ascii only characters
@@ -69,9 +69,9 @@ class MSTore(MutableMapping):
 
 class StorageClient:
     """
-    Client that uses MSTore as an internal storage
-    but it supports following types of input values:
+    Client that uses MSTore as an internal storage, but it supports following types of input values:
     """
+
     _accepted_types = (str, bool, float, int)
     _encoding = "utf-8"
 
@@ -103,8 +103,8 @@ class StorageClient:
     def set(self, key: str, value: Any) -> None:
         """
         This method allows to set the value in the internal MSTore under the provided key.
-        It preserves the type type of provided value, if it is one of the values in _accepted_types.
-        Otherwise it raises an error.
+        It preserves the type of provided value, if it is one of the values in _accepted_types.
+        Otherwise, it raises an error.
         :param key: Key as a string
         :param value: Value as a string, boolean, float or int.
         :return:
@@ -126,7 +126,7 @@ class StorageClient:
         raise TypeError(f"Provided type of value ({type(value)}) is not supported.")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sc = StorageClient()
 
     sc.set("abbCapitalizationUSD", 13231412)

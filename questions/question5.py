@@ -19,13 +19,11 @@ def remove_trailing_zeros(seq: Sequence[int]) -> Sequence[int]:
 
 
 class Version:
-
     def __init__(self, input_value: Union[Number, str], **kwargs):
         self._input_value = input_value
         self._input_string = str(input_value)
         self.delimiters = kwargs.get("delimiters", (".", "b", ","))
-        self.version_tuple = self.decode_input(input_string=self._input_string,
-                                               delimiters=self.delimiters)
+        self.version_tuple = self.decode_input(input_string=self._input_string, delimiters=self.delimiters)
 
     @staticmethod
     def decode_input(input_string: str, delimiters: Sequence[str]) -> Sequence[int]:
@@ -56,8 +54,8 @@ class Version:
         return self.version_tuple >= other
 
 
-if __name__ == '__main__':
-    print(Version('3.20') > Version("3.11"))
-    print(Version('3.1.1') > Version("3.1"))
+if __name__ == "__main__":
+    print(Version("3.20") > Version("3.11"))
+    print(Version("3.1.1") > Version("3.1"))
     print(Version(3.12) > Version(3.9))
     print(Version("0.1.0") == Version(0.1))
