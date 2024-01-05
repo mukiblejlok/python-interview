@@ -26,6 +26,7 @@ Source = "https://github.com/mukiblejlok/python-interview/"
 
 [project.optional-dependencies]
 test = [
+    "pytest",
 ]
 
 code-check = [
